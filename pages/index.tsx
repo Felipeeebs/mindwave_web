@@ -13,10 +13,7 @@ const Index4 = () => {
         <>
             <Layout>
                 <BannerHome />
-                <WhyChooseHome />
-                <HowWork />
                 <Consultant />
-                <ContainerPricing />
                 <FormContact />
             </Layout>
         </>

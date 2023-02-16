@@ -11,9 +11,6 @@ const About = () => {
     return (
         <>
             <BannerAbout />
-            <Statistics />
-            <HowWork />
-            <OurTeams />
             <FormContact />
             <Suscribe />
         </>

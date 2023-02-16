@@ -13,9 +13,6 @@ const Services = () => {
         <>
             <BannerServices />
             <WhyChooseServices />
-            <Statistics />
-            <HowWork />
-            <ContainerPricing />
             <FormContact />
             <Suscribe />
         </>

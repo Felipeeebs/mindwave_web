@@ -18,7 +18,7 @@ const Header = ({handleHidden}) => {
                 <div className="container bg-transparent">
                     <nav className="bg-transparent flex justify-between items-center">
                         <Link href="/" legacyBehavior>
-                            <div style={{ width: '100px'}}>
+                            <div style={{ width: '100px'}} className="cursor-pointer">
                                 <img
                                     className="h-full w-full"
                                     src="/assets/imgs/logos/logoMindwave_transparent.png"
@@ -48,50 +48,6 @@ const Header = ({handleHidden}) => {
                                     Servicios
                                     </a>
                                 </Link>
-                            </li>
-                            <li className="group relative pt-4 pb-4 has-child">
-                                <Link href="#" legacyBehavior>
-                                    <a className="text-sm font-semibold text-blueGray-600 hover:text-blueGray-500">
-                                    Compañía
-                                    </a>
-                                </Link>
-                                <ul className="drop-down-menu min-w-200">
-                                    <li>
-                                        <Link href="/portfolio" legacyBehavior>
-                                            <a className="menu-sub-item text-sm text-blueGray-600 hover:text-blueGray-500">
-                                                Portafolio
-                                            </a>
-                                        </Link>
-                                    </li>
-                                    <li>
-                                        <Link href="/team" legacyBehavior>
-                                            <a className="menu-sub-item text-sm text-blueGray-600 hover:text-blueGray-500">
-                                                Equipo
-                                            </a>
-                                        </Link>
-                                    </li>
-                                    <li>
-                                        <Link href="/testimonials" legacyBehavior>
-                                            <a className="menu-sub-item text-sm text-blueGray-600 hover:text-blueGray-500">
-                                            Testimonios
-                                            </a>
-                                        </Link>
-                                    </li>
-                                    <li>
-                                        <Link href="/pricing" legacyBehavior>
-                                            <a className="menu-sub-item text-sm text-blueGray-600 hover:text-blueGray-500">
-                                            Precios
-                                            </a>
-                                        </Link>
-                                    </li>
-                                    <li>
-                                        <Link href="/faqs" legacyBehavior>
-                                            <a className="menu-sub-item text-sm text-blueGray-600 hover:text-blueGray-500">
-                                                Faqs
-                                            </a>
-                                        </Link>
-                                    </li>
-                                </ul>
                             </li>
                             <li className="group relative pt-4 pb-4">
                                 <Link href="/blog" legacyBehavior>
