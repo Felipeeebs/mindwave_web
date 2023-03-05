@@ -9,7 +9,6 @@ const Contact = () => {
         <>
             <BannerContact />
             <FormContact />
-            <Suscribe />
         </>
     );
 };

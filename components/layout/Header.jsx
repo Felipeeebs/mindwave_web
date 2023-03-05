@@ -36,13 +36,6 @@ const Header = ({handleHidden}) => {
                                 </Link>
                             </li>
                             <li className="pt-4 pb-4">
-                                <Link href="/about" legacyBehavior>
-                                    <a className="text-sm font-semibold text-blueGray-600 hover:text-blueGray-500">
-                                    Sobre nosotros
-                                    </a>
-                                </Link>
-                            </li>
-                            <li className="pt-4 pb-4">
                                 <Link href="/services" legacyBehavior>
                                     <a className="text-sm font-semibold text-blueGray-600 hover:text-blueGray-500">
                                     Servicios
