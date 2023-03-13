@@ -48,7 +48,7 @@ const Footer = () => {
                             <Link href="/contact">
                                 <p className="mb-2 lg:mb-4 lg:text-lg font-bold font-heading text-blueGray-800">Contacto</p>
                             </Link>
-                            <p className="lg:text-lg text-blueGray-400">contact@mindwave.cl</p>
+                            <p className="lg:text-lg text-blueGray-400">contacto@mindwave.cl</p>
                         </div>
                     </div>
                     <div className="flex flex-col lg:flex-row items-center lg:justify-between">
