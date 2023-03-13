@@ -19,9 +19,7 @@ const WhyChooseServices = () => {
                                 </h2>
                             </div>
 
-                            <p className="mb-6 leading-loose text-blueGray-400 wow animate__animated animate__fadeIn" data-wow-delay=".1s">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed luctus eget justo et iaculis.
-                            </p>
+                           
 
                             <div className="flex flex-wrap">
                                 <div className="w-full md:w-1/2 items-start pt-4 pb-8 wow animate__animated animate__fadeIn" data-wow-delay=".2s">

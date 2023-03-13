@@ -78,10 +78,10 @@ const FormContact = () => {
                 <div className="max-w-2xl lg:max-w-3xl mx-auto">
                     <div className="mb-12 text-center">
                         <h2 className="text-4xl font-bold font-heading wow animate__animated animate__fadeIn animated" data-wow-delay=".1s">
-                            ¡Ponte en contacto!
+                            ¿Qué podemos hacer por ti?
                         </h2>
                         <p className="text-blueGray-400 wow animate__animated animate__fadeIn animated" data-wow-delay=".5s">
-                            Estaremos encantados de saber de usted
+                            Será un gusto poder brindar asesoría experta.
                         </p>
                     </div>
                     {/*<div className="flex flex-wrap -mx-3 text-center">
@@ -140,7 +140,7 @@ const FormContact = () => {
                                 </div>
                             </div>
                             <div className="flex justify-between items-center">
-                                <button className="py-4 px-8 text-sm text-white font-semibold leading-none bg-blue-400 hover:bg-blue-500 rounded" type="submit">
+                                <button className="py-4 px-8 text-sm text-white font-semibold leading-none bg-blue-700 hover:bg-blue-800 rounded" type="submit">
                                     Enviar
                                 </button>
                             </div>

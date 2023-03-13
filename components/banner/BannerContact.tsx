@@ -20,7 +20,7 @@ const BannerContact = () => {
                                         <TextEffect text1="Agencia Web" text2="Marketing Digital" />
                                     </div>
                                 </div>
-                                <p className="text-blueGray-400 leading-relaxed wow animate__animatedanimated animate__fadeIn mt-3 text-sm">Helping you maximize operations management with digitization</p>
+                                <p className="text-blueGray-400 leading-relaxed wow animate__animatedanimated animate__fadeIn mt-3 text-sm">Le ayudamos a maximizar la gestión de operaciones con proveedores de digitalización.</p>
                             </div>
                             <div className="text-center lg:text-left">
                                 <Link href="/about" legacyBehavior>

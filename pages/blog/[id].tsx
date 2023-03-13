@@ -49,17 +49,17 @@ return (
                             <span className="text-base md:text-lg">
                                 <Link href="/blog-2" legacyBehavior>
                                     <a className="text-blueGray-200 hover:underline">
-                                        <span className="inline-block py-1 px-3 text-xs font-semibold bg-blue-100 text-blue-600 rounded-xl mr-3">Bussiness</span>
+                                        <span className="inline-block py-1 px-3 text-xs font-semibold bg-blue-100 text-blue-600 rounded-xl mr-3">Desarollo TI</span>
                                     </a>
                                 </Link>
-                                <span className="text-blueGray-500 text-sm">24 Jan, 2021</span>
+                                <span className="text-blueGray-500 text-sm">24 Enero, 2023</span>
                             </span>
                             <h2 className="text-4xl md:text-5xl mt-4 font-bold font-heading">{post.seo.title}</h2>
                         </div>
                         <div className="flex justify-center mb-8">
                             <img className="w-12 h-12 object-cover rounded-full" src="/assets/imgs/placeholders/avatar-8.png" alt="Mindwave" />
                             <div className="pl-4">
-                                <p className="text-blueGray-500 mb-1">Alice Bradley</p>
+                                <p className="text-blueGray-500 mb-1">Jorge Moya</p>
                                 <p className="text-xs text-blueGray-500 font-semibold">Co Founders</p>
                             </div>
                         </div>

@@ -18,7 +18,7 @@ export default async (req, res) => {
       // send mail with defined transport object
       const info = await nodemailerMailgun.sendMail({
         from: `${name} <${email}>`,
-        to: "felipebenitezsura@gmail.com",
+        to: "contacto@mindwave.cl",
         subject: subject,
         text: message,
       });

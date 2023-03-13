@@ -52,7 +52,7 @@ const Header = ({handleHidden}) => {
                             <li className="pt-4 pb-4">
                                 <Link href="/contact" legacyBehavior>
                                     <a className="text-sm font-semibold text-blueGray-600 hover:text-blueGray-500">
-                                        Contact
+                                        Contacto
                                     </a>
                                 </Link>
                             </li>

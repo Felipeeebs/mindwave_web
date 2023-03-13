@@ -11,6 +11,10 @@ const withPWA = require('next-pwa')({
 });
 
 const nextConfig = withPWA({
+  i18n: {
+    locales: ["es"],
+    defaultLocale: "es",
+  },
   experimental: {
     appDir: false,
   },

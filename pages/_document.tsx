@@ -25,6 +25,7 @@ class MyDocument extends Document {
           <link rel='manifest' href='/manifest.json' />
           <link rel="apple-touch-icon" href="/logo/512x512.png" />
           <link rel="shortcut icon" href="/favicon.ico" />
+          <link rel="alternate" lang='es' />
         </Head>
         <body id="main-wrapper">
           <Main />

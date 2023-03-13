@@ -14,37 +14,59 @@ const Footer = () => {
                                 </a>
                             </Link>
                         </div>
-                        <div className="w-full lg:w-2/5 px-3 mb-8 lg:mb-0">
-                            <p className="max-w-md mx-auto lg:max-w-full lg:mx-0 lg:pr-32 lg:text-lg text-blueGray-400 leading-relaxed">
-                                Le ayudamos a <strong>maximizar</strong> la gestión de operaciones con proveedores de digitalización.
+                        <div className="w-full lg:w-1/5 px-3 mb-8 lg:mb-0">
+                            <p className="max-w-md mx-auto lg:max-w-full lg:mx-0 lg:text-lg text-blueGray-400 leading-relaxed">
+                                Ofrecemos productos y servicios de asesoría en TI para ayudar a <strong>maximizar</strong> la eficiencia de su empresa en la era digital.
                             </p>
                         </div>
                         <div className="w-full lg:w-1/5 px-3 mb-8 lg:mb-0">
-                            <p className="mb-2 lg:mb-4 lg:text-lg font-bold font-heading text-blueGray-800">Oficina</p>
-                            <p className="lg:text-lg text-blueGray-400">359 Hidden Valley Road, NY</p>
+                            <Link href="/services">
+                                <p className="mb-2 lg:mb-4 lg:text-lg font-bold font-heading text-blueGray-800">Servicios</p>
+                            </Link>   
+                            <Link href="/services/servicios-ti">
+                                <p className="lg:text-lg text-blueGray-400 hover:text-gray-500">Servicios TI</p>
+                            </Link>
+                            <Link href="/services/consultoria-informatica">
+                                <p className="lg:text-lg text-blueGray-400">Consultoria Informatica</p>
+                            </Link>
+                            <Link href="/services/excelencia-operacional">
+                                <p className="lg:text-lg text-blueGray-400">Excelencia Operacional</p>
+                            </Link>
+                            <Link href="/services/generacion-de-contenido">
+                                <p className="lg:text-lg text-blueGray-400">Generación de contenido</p>
+                            </Link>
+                            <Link href="/services/seo">
+                                <p className="lg:text-lg text-blueGray-400">SEO</p>
+                            </Link>
+                        </div>
+                        <div className="w-full lg:w-1/5 px-3 mb-8 lg:mb-0">
+                            <Link href="/blog">
+                                <p className="mb-2 lg:mb-4 lg:text-lg font-bold font-heading text-blueGray-800">Blog</p>
+                            </Link>  
                         </div>
                         <div className="w-full lg:w-1/5 px-3">
-                            <p className="mb-2 lg:mb-4 lg:text-lg font-bold font-heading text-blueGray-800">Contactos</p>
-                            <p className="lg:text-lg text-blueGray-400">(+01) 234 568</p>
-                            <p className="lg:text-lg text-blueGray-400">contact@monst.com</p>
+                            <Link href="/contact">
+                                <p className="mb-2 lg:mb-4 lg:text-lg font-bold font-heading text-blueGray-800">Contacto</p>
+                            </Link>
+                            <p className="lg:text-lg text-blueGray-400">contact@mindwave.cl</p>
                         </div>
                     </div>
                     <div className="flex flex-col lg:flex-row items-center lg:justify-between">
                         <p className="text-sm text-blueGray-400">
-                            &copy; 2022. Reservados todos los derechos. Diseñada por{" "}
+                            &copy; 2023. Reservados todos los derechos. Diseñada por{" "}
                             <span className="text-blue-400">
                                 Team Mindwave
                             </span>
                         </p>
                         <div className="order-first lg:order-last -mx-2 mb-4 lg:mb-0">
                             <a className="inline-block px-2" href="https://facebook.com">
-                                <img src="/assets/imgs/icons/facebook-blue.svg" alt="Mindwave" />
+                                <img width={22} height={22} src="/assets/imgs/icons/facebook-blue.svg" alt="Mindwave" />
                             </a>
                             <a className="inline-block px-2" href="https://twitter.com">
-                                <img src="/assets/imgs/icons/twitter-blue.svg" alt="Mindwave" />
+                                <img width={22} height={22} src="/assets/imgs/icons/twitter-blue.svg" alt="Mindwave" />
                             </a>
                             <a className="inline-block px-2" href="https://www.instagram.com">
-                                <img src="/assets/imgs/icons/instagram-blue.svg" alt="Mindwave" />
+                                <img width={22} height={22} src="/assets/imgs/icons/instagram-blue.svg" alt="Mindwave" />
                             </a>
                         </div>
                     </div>
