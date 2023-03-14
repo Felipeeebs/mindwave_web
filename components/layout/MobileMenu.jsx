@@ -26,8 +26,8 @@ const MobileMenu = ({ hiddenClass, handleRemove }) => {
                 <nav className="fixed top-0 left-0 bottom-0 flex flex-col w-5/6 max-w-sm py-6 px-6 bg-white border-r overflow-y-auto transition duration-300">
                     <div className="flex items-center mb-8">
                         <Link href="#" legacyBehavior>
-                            <a className="mr-auto text-3xl font-semibold leading-none">
-                                <img className="h-10" src="/assets/imgs/logos/monst-logo.svg" alt="Mindwave" />
+                            <a className="mr-auto text-2xl mx-auto font-semibold leading-none">
+                                <img className="h-16" src="/assets/imgs/logos/logoMindwave.jpg" alt="Mindwave" />
                             </a>
                         </Link>
                         <button className="navbar-close" onClick={handleRemove}>
@@ -38,121 +38,31 @@ const MobileMenu = ({ hiddenClass, handleRemove }) => {
                     </div>
                     <div>
                         <ul className="mobile-menu">
-                            <li className={isActive.key == 1 ? "mb-1 menu-item-has-children rounded-xl active" : "mb-1 menu-item-has-children rounded-xl"} onClick={() => handleToggle(1)}>
-                                <span class="menu-expand">+</span>
-                                <Link href="#" legacyBehavior>
+                            <li className={"mb-1 rounded-xl"} onClick={handleRemove}>
+                                <Link href="/" legacyBehavior>
                                     <a className="block p-4 text-sm text-blueGray-500 hover:bg-blue-50 hover:text-blue-500 rounded-xl">Home</a>
                                 </Link>
-                                <ul className={isActive.key == 1 ? "dropdown pl-5" : "hidden"}>
-                                    <li>
-                                        <Link href="/index" legacyBehavior>
-                                            <a className="block p-3 text-sm text-blueGray-500 hover:bg-blue-50 hover:text-blue-500">Home 1</a>
-                                        </Link>
-                                    </li>
-                                    <li>
-                                        <Link href="/index-2" legacyBehavior>
-                                            <a className="block p-3 text-sm text-blueGray-500 hover:bg-blue-50 hover:text-blue-500">Home 2</a>
-                                        </Link>
-                                    </li>
-                                    <li>
-                                        <Link href="/index-3" legacyBehavior>
-                                            <a className="block p-3 text-sm text-blueGray-500 hover:bg-blue-50 hover:text-blue-500">Home 3</a>
-                                        </Link>
-                                    </li>
-                                    <li>
-                                        <Link href="/index-4" legacyBehavior>
-                                            <a className="block p-3 text-sm text-blueGray-500 hover:bg-blue-50 hover:text-blue-500">Home 4</a>
-                                        </Link>
-                                    </li>
-                                    <li>
-                                        <Link href="/index-5" legacyBehavior>
-                                            <a className="block p-3 text-sm text-blueGray-500 hover:bg-blue-50 hover:text-blue-500">Home 5</a>
-                                        </Link>
-                                    </li>
-                                </ul>
                             </li>
-                            <li className="mb-1 rounded-xl">
-                                <Link href="/about" legacyBehavior>
-                                    <a className="block p-4 text-sm text-blueGray-500 hover:bg-blue-50 hover:text-blue-500 rounded-xl">About Us</a>
-                                </Link>
-                            </li>
-                            <li className="mb-1">
+                            <li className="mb-1" onClick={handleRemove}>
                                 <Link href="/services" legacyBehavior>
-                                    <a className="block p-4 text-sm text-blueGray-500 hover:bg-blue-50 hover:text-blue-500">Services</a>
+                                    <a className="block p-4 text-sm text-blueGray-500 hover:bg-blue-50 hover:text-blue-500">Servicios</a>
                                 </Link>
                             </li>
-                            <li className="mb-1">
-                                <Link href="/portfolio" legacyBehavior>
-                                    <a className="block p-4 text-sm text-blueGray-500 hover:bg-blue-50 hover:text-blue-500">Portfolio</a>
-                                </Link>
-                            </li>
-                            <li className="mb-1">
-                                <Link href="/pricing" legacyBehavior>
-                                    <a className="block p-4 text-sm text-blueGray-500 hover:bg-blue-50 hover:text-blue-500">Pricing</a>
-                                </Link>
-                            </li>
-                            <li className="mb-1">
-                                <Link href="/team" legacyBehavior>
-                                    <a className="block p-4 text-sm text-blueGray-500 hover:bg-blue-50 hover:text-blue-500">Team</a>
-                                </Link>
-                            </li>
-                            <li className={isActive.key == 2 ? "mb-1 menu-item-has-children rounded-xl active" : "mb-1 menu-item-has-children rounded-xl"} onClick={() => handleToggle(2)}>
-                                <span class="menu-expand">+</span>
-                                <Link href="#" legacyBehavior>
+                            <li className={"mb-1"} onClick={handleRemove}>
+                                <Link href="/blog" legacyBehavior>
                                     <a className="block p-4 text-sm text-blueGray-500 hover:bg-blue-50 hover:text-blue-500">Blog</a>
                                 </Link>
-                                <ul className={isActive.key == 2 ? "dropdown pl-5" : "hidden"}>
-                                    <li>
-                                        <Link href="/blog" legacyBehavior>
-                                            <a className="block p-3 text-sm text-blueGray-500 hover:bg-blue-50 hover:text-blue-500">Category 1</a>
-                                        </Link>
-                                    </li>
-                                    <li>
-                                        <Link href="/blog-2" legacyBehavior>
-                                            <a className="block p-3 text-sm text-blueGray-500 hover:bg-blue-50 hover:text-blue-500">Category 2</a>
-                                        </Link>
-                                    </li>
-                                    <li>
-                                        <Link href="/blog-single" legacyBehavior>
-                                            <a className="block p-3 text-sm text-blueGray-500 hover:bg-blue-50 hover:text-blue-500">Single 1</a>
-                                        </Link>
-                                    </li>
-                                    <li>
-                                        <Link href="/blog-single-2" legacyBehavior>
-                                            <a className="block p-3 text-sm text-blueGray-500 hover:bg-blue-50 hover:text-blue-500">Single 2</a>
-                                        </Link>
-                                    </li>
-                                </ul>
                             </li>
-                            <li className="mb-1">
-                                <Link href="/faqs" legacyBehavior>
-                                    <a className="block p-4 text-sm text-blueGray-500 hover:bg-blue-50 hover:text-blue-500">Faqs</a>
-                                </Link>
-                            </li>
-                            <li className="mb-1">
-                                <Link href="/testimonials" legacyBehavior>
-                                    <a className="block p-4 text-sm text-blueGray-500 hover:bg-blue-50 hover:text-blue-500">Testimonial</a>
-                                </Link>
-                            </li>
-                            <li className="mb-1">
+                            <li className="mb-1" onClick={handleRemove}>
                                 <Link href="/contact" legacyBehavior>
-                                    <a className="block p-4 text-sm text-blueGray-500 hover:bg-blue-50 hover:text-blue-500">Contact Us</a>
+                                    <a className="block p-4 text-sm text-blueGray-500 hover:bg-blue-50 hover:text-blue-500">Contacto</a>
                                 </Link>
                             </li>
                         </ul>
-                        <div className="mt-4 pt-6 border-t border-blueGray-100">
-                            <Link href="/signup" legacyBehavior>
-                                <a className="block px-4 py-3 mb-3 text-xs text-center font-semibold leading-none bg-blue-400 hover:bg-blue-500 text-white rounded">Sign Up</a>
-                            </Link>
-                            <Link href="/login" legacyBehavior>
-                                <a className="block px-4 py-3 mb-2 text-xs text-center text-blue-500 hover:text-blue-700 font-semibold leading-none border border-blue-200 hover:border-blue-300 rounded">Log In</a>
-                            </Link>
-                        </div>
                     </div>
                     <div className="mt-auto">
                         <p className="my-4 text-xs text-blueGray-400">
-                            <span>Get in Touch</span>
-                            <span className="text-blue-500 hover:text-blue-500 underline">contact@monst.com</span>
+                            <span className="">contacto@mindwave.cl</span>
                         </p>
                         <a className="inline-block px-1" href="https://facebook.com">
                             <img src="/assets/imgs/icons/facebook-blue.svg" alt="Mindwave" />
